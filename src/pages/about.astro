@@ -6,10 +6,10 @@ import '../style/global.css';
 const pageTitle = "About Me";
 
 const identity = {
-  firstName: "MonsieurOpal",
-  country: "Sweden",
-  occupation: "Graph Geek",
-  hobbies: ["guitar", "listening to music", "driving my kids around"],
+    firstName: "MonsieurOpal",
+    country: "Sweden",
+    occupation: "Graph Geek",
+    hobbies: ["guitar", "listening to music", "driving my kids around"],
 };
 
 const skills = ["Cypher", "Graph Modelling", "Programming", "Astro"];
@@ -72,5 +72,8 @@ const textCase = "uppercase";
         {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 
         <Footer />
+        <script>
+          import "../scripts/menu.js";
+        </script>
 	</body>
 </html>
